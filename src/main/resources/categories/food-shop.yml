@@ -1,0 +1,25 @@
+# categories/food-shop.yml
+title: 'Food Shop'
+
+items:
+  potato:
+    material: POTATO
+    amount: 1
+    price: 25
+    display-name: '&fPotato'
+    lore:
+      - '&7Price: &a$25'
+  cooked-beef:
+    material: COOKED_BEEF
+    amount: 1
+    price: 35
+    display-name: '&fSteak'
+    lore:
+      - '&7Price: &a$35'
+  golden-apple:
+    material: GOLDEN_APPLE
+    amount: 1
+    price: 250
+    display-name: '&bGolden Apple'
+    lore:
+      - '&7Price: &a$250'

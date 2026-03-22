@@ -1,0 +1,17 @@
+# categories/gear-shop.yml
+title: 'Gear Shop'
+items:
+  diamond_sword:
+    material: DIAMOND_SWORD
+    amount: 1
+    price: 500
+    display-name: '&bDiamond Sword'
+    lore:
+      - '&7Price: &a$500'
+  netherite_chestplate:
+    material: NETHERITE_CHESTPLATE
+    amount: 1
+    price: 15000
+    display-name: '&8Netherite Chestplate'
+    lore:
+      - '&7Price: &a$15000'

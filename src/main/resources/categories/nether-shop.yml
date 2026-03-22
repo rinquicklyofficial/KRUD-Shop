@@ -1,0 +1,17 @@
+# categories/nether-shop.yml
+title: 'Nether Shop'
+items:
+  netherrack:
+    material: NETHERRACK
+    amount: 64
+    price: 10
+    display-name: '&cNetherrack'
+    lore:
+      - '&7Price: &a$10'
+  ancient_debris:
+    material: ANCIENT_DEBRIS
+    amount: 1
+    price: 2500
+    display-name: '&6Ancient Debris'
+    lore:
+      - '&7Price: &a$2500'

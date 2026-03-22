@@ -1,0 +1,17 @@
+# categories/shard-shop.yml
+title: 'Shard Shop'
+items:
+  amethyst_shard:
+    material: AMETHYST_SHARD
+    amount: 1
+    price: 100
+    display-name: '&dAmethyst Shard'
+    lore:
+      - '&7Price: &a$100'
+  amethyst_block:
+    material: AMETHYST_BLOCK
+    amount: 1
+    price: 900
+    display-name: '&dAmethyst Block'
+    lore:
+      - '&7Price: &a$900'

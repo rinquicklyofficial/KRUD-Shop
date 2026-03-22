@@ -1,0 +1,25 @@
+name: KRUD-Shop
+version: 1.0.0
+main: com.krudstudio.krudshop.KRUDShop
+author: Krud Studio
+description: Krud Studio Khmer
+api-version: '1.21'
+depend: [Vault]
+
+commands:
+  shop:
+    description: Open KRUD Shop
+    usage: /shop [category|reload]
+    permission: krudshop.use
+    aliases: [kshop]
+
+permissions:
+  krudshop.use:
+    description: Use the /shop command
+    default: true
+  krudshop.admin:
+    description: Reload the shop config
+    default: op
+  krudshop.bypass.confirm:
+    description: Skip the confirmation GUI
+    default: false

@@ -1,0 +1,143 @@
+# KRUD Shop Configuration
+# Author: Krud Studio
+# Description: Krud Studio Khmer
+# Supports: Bukkit/Spigot/Paper/Purpur/Folia 1.21.x
+# NO license key required
+
+messages:
+  prefix: "<gradient:#a855f7:#f59e0b><bold>[ᴋʀᴜᴅ ꜱʜᴏᴘ]</bold></gradient>"
+  no-permission: "<red>✘ No permission!"
+  reloaded: "<green>✔ Config and categories reloaded!"
+  no-money: "<red>✘ Insufficient funds!"
+  purchase-success: "<green>✔ Purchased <white>{amount}x {item}</white> for <green>${price}!"
+  inventory-full: "<red>✘ Inventory is full!"
+  separator: "<#7c3aed>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"
+
+items:
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+  back-page:
+    material: ARROW
+    name: "<gray>← Previous Page"
+  next-page:
+    material: ARROW
+    name: "<gray>Next Page →"
+  back-to-main:
+    material: BARRIER
+    name: "<red>← Back to Main Menu"
+  confirm:
+    material: LIME_STAINED_GLASS_PANE
+    name: "<green><bold>✔ Confirm Purchase"
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    name: "<red><bold>✘ Cancel"
+
+main-inventory:
+  title: "<gradient:#a855f7:#f59e0b><bold>🛒 KRUD Shop"
+  rows: 3
+  layout:
+    - "XXXXXXXXX"
+    - "XOOOOOOOX"
+    - "XXXXXXXXX"
+
+categories:
+  end:
+    icon: END_STONE
+    name: "<light_purple>End Shop"
+    lore:
+      - "<gray>Click to view end items"
+      - "<gray>💰 Items: <white>{count}"
+      - "<green>Click to open!"
+    file: "end-shop.yml"
+    inventory-name: "<gradient:#a855f7:#f59e0b><bold>🛒 Shop — End"
+    layout:
+      - "XXXXXXXXX"
+      - "XOOOOOOOX"
+      - "XOOOOOOOX"
+      - "XOOOOOOOX"
+      - "XX<XXX>XBX"
+      - "XXXXXXXXX"
+
+  food:
+    icon: COOKED_BEEF
+    name: "<gold>Food Shop"
+    lore:
+      - "<gray>Click to view food items"
+      - "<gray>💰 Items: <white>{count}"
+      - "<green>Click to open!"
+    file: "food-shop.yml"
+    inventory-name: "<gradient:#a855f7:#f59e0b><bold>🛒 Shop — Food"
+    layout:
+      - "XXXXXXXXX"
+      - "XOOOOOOOX"
+      - "XOOOOOOOX"
+      - "XX<XXX>XBX"
+      - "XXXXXXXXX"
+
+  gear:
+    icon: DIAMOND_SWORD
+    name: "<aqua>Gear Shop"
+    lore:
+      - "<gray>Click to view gear items"
+      - "<gray>💰 Items: <white>{count}"
+      - "<green>Click to open!"
+    file: "gear-shop.yml"
+    inventory-name: "<gradient:#a855f7:#f59e0b><bold>🛒 Shop — Gear"
+    layout:
+      - "XXXXXXXXX"
+      - "XOOOOOOOX"
+      - "XOOOOOOOX"
+      - "XX<XXX>XBX"
+      - "XXXXXXXXX"
+
+  nether:
+    icon: NETHERRACK
+    name: "<red>Nether Shop"
+    lore:
+      - "<gray>Click to view nether items"
+      - "<gray>💰 Items: <white>{count}"
+      - "<green>Click to open!"
+    file: "nether-shop.yml"
+    inventory-name: "<gradient:#a855f7:#f59e0b><bold>🛒 Shop — Nether"
+    layout:
+      - "XXXXXXXXX"
+      - "XOOOOOOOX"
+      - "XOOOOOOOX"
+      - "XX<XXX>XBX"
+      - "XXXXXXXXX"
+
+  shard:
+    icon: AMETHYST_SHARD
+    name: "<light_purple>Shard Shop"
+    lore:
+      - "<gray>Click to view shard items"
+      - "<gray>💰 Items: <white>{count}"
+      - "<green>Click to open!"
+    file: "shard-shop.yml"
+    inventory-name: "<gradient:#a855f7:#f59e0b><bold>🛒 Shop — Shard"
+    layout:
+      - "XXXXXXXXX"
+      - "XOOOOOOOX"
+      - "XOOOOOOOX"
+      - "XX<XXX>XBX"
+      - "XXXXXXXXX"
+
+economy:
+  provider: VAULT
+
+gui:
+  confirm-purchase: true
+  shift-click-amount: true
+  amount-options:
+    - 1
+    - 8
+    - 16
+    - 32
+    - 64
+
+sounds:
+  purchase: ENTITY_PLAYER_LEVELUP
+  open: BLOCK_CHEST_OPEN
+  error: ENTITY_VILLAGER_NO
+  cancel: BLOCK_NOTE_BLOCK_BASS

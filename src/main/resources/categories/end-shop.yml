@@ -1,0 +1,17 @@
+# categories/end-shop.yml
+title: 'End Shop'
+items:
+  elytra:
+    material: ELYTRA
+    amount: 1
+    price: 50000
+    display-name: '&dElytra'
+    lore:
+      - '&7Price: &a$50000'
+  shulker_box:
+    material: SHULKER_BOX
+    amount: 1
+    price: 5000
+    display-name: '&dShulker Box'
+    lore:
+      - '&7Price: &a$5000'
