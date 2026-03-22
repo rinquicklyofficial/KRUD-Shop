@@ -47,13 +47,20 @@
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation & Download
 
-1.  Download the `KRUD-Shop.jar`.
+1.  **Download the latest release here:** [**GitHub Releases**](https://github.com/rinquicklyofficial/KRUD-Shop/releases/new)
 2.  Ensure you have **Vault** and an economy provider (like EssentialsX or LiteEconomy) installed.
-3.  Place the JAR in your `/plugins/` folder.
-4.  Restart your server or use a plugin loader.
+3.  Place the `KRUD-Shop.jar` in your `/plugins/` folder.
+4.  Restart your server.
 5.  Configure your items in `plugins/KRUD-Shop/categories/`.
+
+---
+
+## 📜 License & Copyright
+
+© 2026 **Krud Studio**. Released under the **MIT License**.
+This plugin is completely free to use, modify, and distribute. No license key is required.
 
 ---
 
